@@ -1,7 +1,7 @@
 # bitespeed-backend
 
 ## Backend URL
-The backend is running at: `http://localhost:3000`
+The backend is running at: `https://bitespeed-backend-wa1r.onrender.com/`
 
 ## API Endpoint
 - **POST** `/identify` - Main endpoint for contact identification and creation
