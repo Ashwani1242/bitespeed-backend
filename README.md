@@ -22,6 +22,40 @@ Additionally, I have also created an endpoint to clean the database for testing 
 - **POST** `/clean-db` - Clears all data from the database
 
 
+
+## Environment Setup
+
+### Local Dev
+Create a `.env` file in the root dir - 
+```
+DATABASE_URL="file:./dev.db"
+```
+
+### Production Deployment
+Set `DATABASE_URL` to a  SQLite db file -
+```
+DATABASE_URL="file:/tmp/production.db"
+```
+
+## Install and Setup
+
+Install dependencies -
+```bash
+npm install
+```
+
+For local -
+```bash
+npm run dev
+```
+
+For production -
+```bash
+npm run build
+npm start
+```
+
+
 ## I'm looking forward for your response
 
 # Thank you
